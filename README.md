@@ -28,11 +28,11 @@ module_3
 
 3.In case the master finds the sensor data not within the normal range 
 
-then it should send the connection request to slave where the master would request the slave to
+  then it should send the connection request to slave where the master would request the slave to
 
-increase the throughput(reducing the amount of time) of its data so that the master becomes sure that the temperature 
+  increase the throughput(reducing the amount of time) of its data so that the master becomes sure that the temperature 
 
-is not within the normal range and its time to alert(printing the msg) the maintenance and call appropiate function to get the work done
+  is not within the normal range and its time to alert(printing the msg) the maintenance and call appropiate function to get the work done
 
 4.serailize the data and send to the server for further processing 
 
