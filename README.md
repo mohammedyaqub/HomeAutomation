@@ -1,8 +1,8 @@
 # HomeAutomation
 
-Monitoring the temperature of the room and setting accordingly either heater or Ac
+# Monitoring the temperature of the room and setting accordingly either heater or Ac
 
-module_1
+# module_1
 
 1.Generating the random value as temp sensor 
 
@@ -10,7 +10,7 @@ module_1
 
 3.interfacing through the socket and transfer data to the slave periodically 
 
-module_2
+# module_2
 
 1.Receiving the data from module_1 deserialize the data
 
@@ -20,7 +20,7 @@ module_2
 
 4.which in turn transfer the data to the master module_3
 
-module_3
+# module_3
 
 1.Received data should be deserialize
 
@@ -36,7 +36,7 @@ module_3
 
 4.serailize the data and send to the server for further processing 
 
-module_4
+# module_4
 
 1.deserialize the data and writing the data to the files( when returning need to be int casting)which include all warnings and error
 
